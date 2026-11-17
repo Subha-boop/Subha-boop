@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Subhadeep Maity — AI/ML Engineer | Generative AI | Backend Development</title>
+  <desc id="bannerDesc">Dark futuristic developer portfolio banner for Subhadeep Maity, B.Tech Computer Science and Engineering (AI and ML), featuring a neural-to-backend system architecture visual.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="52%" stop-color="#090F1E"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="topHairline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38BDF8" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0C1426" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="edgeBlueViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.65"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="78%" cy="35%" r="36%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#050811" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowLeft" cx="14%" cy="18%" r="34%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#050811" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#38BDF8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="nodeGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="bannerClip">
+      <rect x="1" y="1" width="1278" height="378" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main Frame -->
+  <g clip-path="url(#bannerClip)">
+    <rect x="0" y="0" width="1280" height="380" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="1280" height="380" fill="url(#grid)"/>
+    <rect x="0" y="0" width="1280" height="380" fill="url(#glowBlue)"/>
+    <rect x="0" y="0" width="1280" height="380" fill="url(#glowLeft)"/>
+
+    <!-- Subtle corner architectural brackets -->
+    <path d="M 28 44 L 28 28 L 44 28" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.5"/>
+    <path d="M 1252 336 L 1252 352 L 1236 352" fill="none" stroke="#8B5CF6" stroke-opacity="0.35" stroke-width="1.5"/>
+
+    <!-- Top glowing border line -->
+    <rect x="0" y="1" width="1280" height="2" fill="url(#topHairline)"/>
+
+    <!-- Status Pill -->
+    <rect x="64" y="50" width="326" height="30" rx="15" fill="#0B1324" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="84" cy="65" r="4" fill="#22D3EE" filter="url(#nodeGlow)">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="98" y="69" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,monospace" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#94A3B8">B.TECH CSE (AI &amp; ML) · 3RD YEAR</text>
+
+    <!-- Primary Name -->
+    <text x="62" y="144" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="3.5" fill="#F8FAFC">SUBHADEEP MAITY</text>
+
+    <!-- Accent Gradient Rule -->
+    <rect x="64" y="164" width="148" height="3.5" rx="1.75" fill="url(#accentGrad)">
+      <animate attributeName="width" values="148;178;148" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="220" y="165" width="490" height="1" fill="#1E293B"/>
+
+    <!-- Headline -->
+    <text x="64" y="204" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="18.5" font-weight="600" letter-spacing="0.4">
+      <tspan fill="#38BDF8">AI/ML Engineer</tspan>
+      <tspan fill="#475569">   |   </tspan>
+      <tspan fill="#A78BFA">Generative AI</tspan>
+      <tspan fill="#475569">   |   </tspan>
+      <tspan fill="#22D3EE">Backend Development</tspan>
+    </text>
+
+    <!-- Short Value Statement -->
+    <text x="64" y="246" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="400" fill="#94A3B8">Designing deep learning models, NLP pipelines, and dependable backend systems —</text>
+    <text x="64" y="269" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="400" fill="#94A3B8">focused on bridging machine intelligence with clean production software engineering.</text>
+
+    <!-- Domain Focus Chips -->
+    <g font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,monospace" font-size="11" font-weight="500" letter-spacing="0.6">
+      <rect x="64" y="302" width="166" height="28" rx="6" fill="#0B1324" stroke="#1E3A5F" stroke-width="1"/>
+      <text x="147" y="320" text-anchor="middle" fill="#7DD3FC">DEEP LEARNING &amp; CV</text>
+
+      <rect x="242" y="302" width="144" height="28" rx="6" fill="#0E1225" stroke="#3B2D6E" stroke-width="1"/>
+      <text x="314" y="320" text-anchor="middle" fill="#C4B5FD">LLMs &amp; AGENTS</text>
+
+      <rect x="398" y="302" width="136" height="28" rx="6" fill="#091622" stroke="#154E63" stroke-width="1"/>
+      <text x="466" y="320" text-anchor="middle" fill="#67E8F9">NLP PIPELINES</text>
+
+      <rect x="546" y="302" width="162" height="28" rx="6" fill="#0B1220" stroke="#1E293B" stroke-width="1"/>
+      <text x="627" y="320" text-anchor="middle" fill="#CBD5E1">BACKEND SYSTEMS</text>
+    </g>
+
+    <!-- Right-Side Neural & System Topology Panel -->
+    <g transform="translate(866, 46)">
+      <rect x="0" y="0" width="354" height="288" rx="12" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+      <!-- Panel top bar -->
+      <line x1="0" y1="34" x2="354" y2="34" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="18" cy="17" r="3.5" fill="#38BDF8" opacity="0.8"/>
+      <circle cx="31" cy="17" r="3.5" fill="#8B5CF6" opacity="0.8"/>
+      <circle cx="44" cy="17" r="3.5" fill="#22D3EE" opacity="0.8"/>
+      <text x="336" y="21" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10.5" fill="#64748B">architecture.pipeline</text>
+
+      <!-- Network Edges: Layer 1 (x=54) -> Layer 2 (x=140) -> Layer 3 (x=226) -> Layer 4 (x=302) -->
+      <g stroke="url(#edgeBlueViolet)" stroke-width="1.15" fill="none" opacity="0.52">
+        <!-- L1 (86, 142, 198) to L2 (70, 118, 166, 214) -->
+        <line x1="54" y1="86" x2="140" y2="70"/>
+        <line x1="54" y1="86" x2="140" y2="118"/>
+        <line x1="54" y1="86" x2="140" y2="166"/>
+        <line x1="54" y1="142" x2="140" y2="70"/>
+        <line x1="54" y1="142" x2="140" y2="118"/>
+        <line x1="54" y1="142" x2="140" y2="166"/>
+        <line x1="54" y1="142" x2="140" y2="214"/>
+        <line x1="54" y1="198" x2="140" y2="118"/>
+        <line x1="54" y1="198" x2="140" y2="166"/>
+        <line x1="54" y1="198" x2="140" y2="214"/>
+        <!-- L2 to L3 (94, 142, 190) -->
+        <line x1="140" y1="70" x2="226" y2="94"/>
+        <line x1="140" y1="70" x2="226" y2="142"/>
+        <line x1="140" y1="118" x2="226" y2="94"/>
+        <line x1="140" y1="118" x2="226" y2="142"/>
+        <line x1="140" y1="118" x2="226" y2="190"/>
+        <line x1="140" y1="166" x2="226" y2="94"/>
+        <line x1="140" y1="166" x2="226" y2="142"/>
+        <line x1="140" y1="166" x2="226" y2="190"/>
+        <line x1="140" y1="214" x2="226" y2="142"/>
+        <line x1="140" y1="214" x2="226" y2="190"/>
+        <!-- L3 to L4 (116, 168) -->
+        <line x1="226" y1="94" x2="302" y2="116"/>
+        <line x1="226" y1="94" x2="302" y2="168"/>
+        <line x1="226" y1="142" x2="302" y2="116"/>
+        <line x1="226" y1="142" x2="302" y2="168"/>
+        <line x1="226" y1="190" x2="302" y2="116"/>
+        <line x1="226" y1="190" x2="302" y2="168"/>
+      </g>
+
+      <!-- Highlighted active signal path -->
+      <path d="M 54 142 L 140 118 L 226 142 L 302 116" fill="none" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.85">
+        <animate attributeName="stroke-opacity" values="0.25;0.95;0.25" dur="3.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 54 86 L 140 166 L 226 94 L 302 168" fill="none" stroke="#A78BFA" stroke-width="1.8" stroke-opacity="0.75">
+        <animate attributeName="stroke-opacity" values="0.85;0.2;0.85" dur="4.2s" repeatCount="indefinite"/>
+      </path>
+
+      <!-- Layer 1 Nodes: Input / Signals -->
+      <g filter="url(#nodeGlow)">
+        <circle cx="54" cy="86" r="6" fill="#0B1324" stroke="#22D3EE" stroke-width="2"/>
+        <circle cx="54" cy="142" r="6" fill="#22D3EE"/>
+        <circle cx="54" cy="198" r="6" fill="#0B1324" stroke="#22D3EE" stroke-width="2"/>
+      </g>
+
+      <!-- Layer 2 Nodes: Representation / Models -->
+      <g filter="url(#nodeGlow)">
+        <circle cx="140" cy="70" r="6" fill="#0B1324" stroke="#38BDF8" stroke-width="2"/>
+        <circle cx="140" cy="118" r="6.5" fill="#38BDF8">
+          <animate attributeName="r" values="5.5;7.5;5.5" dur="3.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="140" cy="166" r="6" fill="#0B1324" stroke="#38BDF8" stroke-width="2"/>
+        <circle cx="140" cy="214" r="6" fill="#0B1324" stroke="#38BDF8" stroke-width="2"/>
+      </g>
+
+      <!-- Layer 3 Nodes: Reasoning / Orchestration -->
+      <g filter="url(#nodeGlow)">
+        <circle cx="226" cy="94" r="6" fill="#0E1225" stroke="#8B5CF6" stroke-width="2"/>
+        <circle cx="226" cy="142" r="6.5" fill="#A78BFA">
+          <animate attributeName="r" values="7;5.5;7" dur="3.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="226" cy="190" r="6" fill="#0E1225" stroke="#8B5CF6" stroke-width="2"/>
+      </g>
+
+      <!-- Layer 4 Nodes: Service / Output -->
+      <g filter="url(#nodeGlow)">
+        <circle cx="302" cy="116" r="7" fill="#22D3EE"/>
+        <circle cx="302" cy="168" r="6.5" fill="#0B1324" stroke="#38BDF8" stroke-width="2"/>
+      </g>
+
+      <!-- Stage Labels -->
+      <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="9.5" fill="#64748B" text-anchor="middle" letter-spacing="0.8">
+        <text x="54" y="244">DATA</text>
+        <text x="140" y="244">MODELS</text>
+        <text x="226" y="244">AGENTS</text>
+        <text x="302" y="244">APIs</text>
+      </g>
+
+      <!-- Panel footer bar -->
+      <line x1="0" y1="258" x2="354" y2="258" stroke="#1E293B" stroke-width="1"/>
+      <text x="18" y="277" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#94A3B8">@Subha-boop</text>
+      <text x="336" y="277" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#38BDF8">PYTHON · ML · GENAI</text>
+    </g>
+  </g>
+
+  <!-- Crisp Outer Border -->
+  <rect x="1" y="1" width="1278" height="378" rx="16" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+</svg>

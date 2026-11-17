@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 112" width="1280" height="112" role="img" aria-label="Footer — Subhadeep Maity">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="50%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="fAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.85"/>
+      <stop offset="75%" stop-color="#22D3EE" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fClip">
+      <rect x="1" y="1" width="1278" height="110" rx="12"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#fClip)">
+    <rect x="0" y="0" width="1280" height="112" fill="url(#fBg)"/>
+    <text x="640" y="48" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-style="italic" fill="#CBD5E1">"Models unlock capability. Clean engineering turns capability into dependable systems."</text>
+    <text x="640" y="80" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" letter-spacing="2.2" fill="#64748B">SUBHADEEP MAITY   ·   AI/ML &amp; BACKEND ENGINEERING   ·   GITHUB.COM/SUBHA-BOOP</text>
+    <rect x="0" y="108" width="1280" height="3" fill="url(#fAccent)"/>
+  </g>
+  <rect x="1" y="1" width="1278" height="110" rx="12" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+</svg>

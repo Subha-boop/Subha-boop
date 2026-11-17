@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 326" width="620" height="326" role="img" aria-labelledby="nlpCardTitle nlpCardDesc">
+  <title id="nlpCardTitle">NLP Text and Document Analysis Suite</title>
+  <desc id="nlpCardDesc">Interactive NLP application built with spaCy, TextBlob, NeatText, and Streamlit supporting PDF, DOCX, and TXT document ingestion, NER, sentiment analysis, visual charts, and CSV export.</desc>
+  <defs>
+    <linearGradient id="c2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0C1B"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="c2Accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="55%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="c2Glow" cx="90%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#0A0C1B" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c2Clip">
+      <rect x="1" y="1" width="618" height="324" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#c2Clip)">
+    <rect x="0" y="0" width="620" height="326" fill="url(#c2Bg)"/>
+    <rect x="0" y="0" width="620" height="326" fill="url(#c2Glow)"/>
+    <rect x="0" y="1" width="620" height="3" fill="url(#c2Accent)"/>
+
+    <!-- Header Row -->
+    <text x="28" y="38" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" font-weight="600" letter-spacing="1.1" fill="#A78BFA">02 // NATURAL LANGUAGE PROCESSING · ANALYTICS</text>
+    <circle cx="534" cy="34" r="4.5" fill="#A78BFA"/>
+    <text x="545" y="38" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#94A3B8">Python</text>
+
+    <!-- Title -->
+    <text x="28" y="76" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">NLP Text &amp; Document Analysis Suite</text>
+
+    <!-- Description -->
+    <g font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="13.2" fill="#94A3B8">
+      <text x="28" y="106">Interactive linguistic profiling workspace performing tokenization, lemma</text>
+      <text x="28" y="126">and PoS tagging, named entity recognition, sentiment scoring, stopword-</text>
+      <text x="28" y="146">filtered keyword ranking, visual plotting, and CSV export across documents.</text>
+    </g>
+
+    <!-- Metric Boxes -->
+    <g transform="translate(28, 168)">
+      <rect x="0" y="0" width="176" height="62" rx="8" fill="#0E1225" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="27" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="700" fill="#F8FAFC">7 Pipelines</text>
+      <text x="16" y="47" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" letter-spacing="0.7" fill="#64748B">NER · PoS · SENTIMENT</text>
+
+      <rect x="194" y="0" width="176" height="62" rx="8" fill="#0E1225" stroke="#1E293B" stroke-width="1"/>
+      <text x="210" y="27" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="700" fill="#A78BFA">3 Formats</text>
+      <text x="210" y="47" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" letter-spacing="0.7" fill="#64748B">PDF · DOCX · TXT INPUT</text>
+
+      <rect x="388" y="0" width="176" height="62" rx="8" fill="#0E1225" stroke="#1E293B" stroke-width="1"/>
+      <text x="404" y="27" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="700" fill="#38BDF8">CSV + 3 Plots</text>
+      <text x="404" y="47" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" letter-spacing="0.7" fill="#64748B">FREQ · PoS · WORDCLOUD</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="28" y1="252" x2="592" y2="252" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Tech Stack Chips -->
+    <g transform="translate(28, 270)" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10.5" fill="#CBD5E1">
+      <rect x="0" y="0" width="60" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="30" y="17" text-anchor="middle">spaCy</text>
+
+      <rect x="68" y="0" width="72" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="104" y="17" text-anchor="middle">TextBlob</text>
+
+      <rect x="148" y="0" width="74" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="185" y="17" text-anchor="middle">NeatText</text>
+
+      <rect x="230" y="0" width="64" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="262" y="17" text-anchor="middle">Pandas</text>
+
+      <rect x="302" y="0" width="68" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="336" y="17" text-anchor="middle">Seaborn</text>
+
+      <rect x="378" y="0" width="76" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="416" y="17" text-anchor="middle">Streamlit</text>
+
+      <text x="564" y="17" text-anchor="end" font-weight="600" fill="#A78BFA">Explore -&gt;</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="618" height="324" rx="14" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+</svg>

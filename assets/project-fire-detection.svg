@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 326" width="620" height="326" role="img" aria-labelledby="fireCardTitle fireCardDesc">
+  <title id="fireCardTitle">Multi-Modal Fire Detection System</title>
+  <desc id="fireCardDesc">Real-time fire detection combining a 4-block Keras CNN, Arduino MQ-2 smoke and thermal sensors, SQLite telemetry logging, voice evacuation alerts, and Twilio SMS notifications.</desc>
+  <defs>
+    <linearGradient id="c1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D1A"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="c1Accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="60%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="c1Glow" cx="90%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#080D1A" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c1Clip">
+      <rect x="1" y="1" width="618" height="324" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#c1Clip)">
+    <rect x="0" y="0" width="620" height="326" fill="url(#c1Bg)"/>
+    <rect x="0" y="0" width="620" height="326" fill="url(#c1Glow)"/>
+    <rect x="0" y="1" width="620" height="3" fill="url(#c1Accent)"/>
+
+    <!-- Header Row -->
+    <text x="28" y="38" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" font-weight="600" letter-spacing="1.1" fill="#38BDF8">01 // COMPUTER VISION · DEEP LEARNING · IoT</text>
+    <circle cx="534" cy="34" r="4.5" fill="#38BDF8"/>
+    <text x="545" y="38" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#94A3B8">Python</text>
+
+    <!-- Title -->
+    <text x="28" y="76" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">Multi-Modal Fire Detection System</text>
+
+    <!-- Description -->
+    <g font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="13.2" fill="#94A3B8">
+      <text x="28" y="106">End-to-end fire safety platform fusing a custom 4-block Keras CNN on live</text>
+      <text x="28" y="126">OpenCV video with Arduino Uno MQ-2 smoke and thermal serial streams,</text>
+      <text x="28" y="146">rolling SQLite persistence, offline voice alerts, and Twilio SMS dispatch.</text>
+    </g>
+
+    <!-- Metric Boxes -->
+    <g transform="translate(28, 168)">
+      <rect x="0" y="0" width="176" height="62" rx="8" fill="#0B1324" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="27" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="700" fill="#F8FAFC">1.70M Params</text>
+      <text x="16" y="47" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" letter-spacing="0.7" fill="#64748B">4-BLOCK KERAS CNN</text>
+
+      <rect x="194" y="0" width="176" height="62" rx="8" fill="#0B1324" stroke="#1E293B" stroke-width="1"/>
+      <text x="210" y="27" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="700" fill="#38BDF8">3-Signal Gate</text>
+      <text x="210" y="47" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" letter-spacing="0.7" fill="#64748B">VISION + SMOKE + TEMP</text>
+
+      <rect x="388" y="0" width="176" height="62" rx="8" fill="#0B1324" stroke="#1E293B" stroke-width="1"/>
+      <text x="404" y="27" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="700" fill="#22D3EE">5,595+ Rows</text>
+      <text x="404" y="47" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" letter-spacing="0.7" fill="#64748B">SQLITE TELEMETRY LOG</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="28" y1="252" x2="592" y2="252" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Tech Stack Chips -->
+    <g transform="translate(28, 270)" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10.5" fill="#CBD5E1">
+      <rect x="0" y="0" width="90" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="45" y="17" text-anchor="middle">TensorFlow</text>
+
+      <rect x="98" y="0" width="66" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="131" y="17" text-anchor="middle">OpenCV</text>
+
+      <rect x="172" y="0" width="68" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="206" y="17" text-anchor="middle">Arduino</text>
+
+      <rect x="248" y="0" width="60" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="278" y="17" text-anchor="middle">SQLite</text>
+
+      <rect x="316" y="0" width="60" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="346" y="17" text-anchor="middle">Twilio</text>
+
+      <rect x="384" y="0" width="76" height="26" rx="5" fill="#111827" stroke="#1F2937"/>
+      <text x="422" y="17" text-anchor="middle">Streamlit</text>
+
+      <text x="564" y="17" text-anchor="end" font-weight="600" fill="#38BDF8">Explore -&gt;</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="618" height="324" rx="14" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+</svg>
