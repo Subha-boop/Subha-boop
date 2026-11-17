@@ -16,10 +16,10 @@
   <a href="https://github.com/Subha-boop">
     <img src="https://img.shields.io/badge/GitHub-Subha--boop-1E3A8A?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=0B1120" alt="GitHub — Subha-boop" />
   </a>&nbsp;
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">
+  <a href="https://www.linkedin.com/in/subhadeep-maity-068810329/">
     <img src="https://img.shields.io/badge/LinkedIn-Subhadeep%20Maity-4C1D95?style=for-the-badge&labelColor=0B1120" alt="LinkedIn — Subhadeep Maity" />
   </a>&nbsp;
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:subhadeepmaity45@gmail.com">
     <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-155E75?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=0B1120" alt="Email — Subhadeep Maity" />
   </a>
   <!-- Optional: uncomment and add verified links when ready
