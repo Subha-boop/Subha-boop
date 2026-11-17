@@ -6,7 +6,7 @@
 <!-- ===================================================================== -->
 
 <div align="center">
-  <img src="./assets/☠︎︎ 𝑚𝑙𝑜𝑣𝑒𝑠𝑝𝑢𝑛𝑘𝑘 ☠︎︎.jpg" width="100%" alt="Subhadeep Maity — AI/ML Engineer | Generative AI | Backend Development" />
+  <img src="./assets/eren eager.jpg" width="100%" alt="Subhadeep Maity — AI/ML Engineer | Generative AI | Backend Development" />
 </div>
 
 <br />
